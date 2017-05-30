@@ -1,0 +1,23 @@
+$primary-color: #ddd;
+$primary-color-light-1: lighten($primary-color, 20%);
+$primary-color-dark-1: darken($primary-color, 20%);
+$primary-color-dark-2: darken($primary-color, 25%);
+$primary-color-dark-3: darken($primary-color, 30%);
+$primary-color-dark-4: darken($primary-color, 50%);
+
+$secondary-color: #08e;
+//$secondary-color-light-1: lighten($secondary-color, 20%);
+//$secondary-color-light-2: lighten($secondary-color, 35%);
+$secondary-color-light-3: lighten($secondary-color, 50%);
+
+$white: #fff;
+$black: #000;
+
+$valid: #53ae40;
+$cancel: #af1010;
+$danger: #ec7919;
+
+$transparent: rgba(0, 0, 0, 0);
+$transparent-black: rgba(0, 0, 0, .9);
+$transparent-grey: rgba(150, 150, 150, .3);
+$transparent-grey2: rgba(150, 150, 150, .7);

@@ -1,0 +1,71 @@
+$thin: 100;
+$xlight: 200;
+$light: 300;
+$normal: 400;
+$medium: 500;
+$sbold: 600;
+$bold: 700;
+$xbold: 800;
+$heavy: 900;
+
+@mixin typo-btn {
+  font-size: 14px;
+  font-weight: $medium;
+  text-transform: uppercase;
+}
+
+@mixin typo-link {
+  font-size: 15px;
+  font-weight: $sbold;
+  text-transform: uppercase;
+}
+
+@mixin typo-caption {
+  font-size: 12px;
+  font-weight: $normal;
+}
+
+@mixin typo-body1 {
+  font-size: 13px;
+  font-weight: $normal;
+}
+
+@mixin typo-body2 {
+  font-size: 13px;
+  font-weight: $medium;
+}
+
+@mixin typo-subhead {
+  font-size: 15px;
+  font-weight: $normal;
+}
+
+@mixin typo-title {
+  font-size: 20px;
+  font-weight: $medium;
+}
+
+@mixin typo-headline {
+  font-size: 24px;
+  font-weight: $normal;
+}
+
+@mixin typo-display1 {
+  font-size: 34px;
+  font-weight: $normal;
+}
+
+@mixin typo-display2 {
+  font-size: 45px;
+  font-weight: $normal;
+}
+
+@mixin typo-display3 {
+  font-size: 56px;
+  font-weight: $normal;
+}
+
+@mixin typo-display4 {
+  font-size: 112px;
+  font-weight: $light;
+}

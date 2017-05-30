@@ -1,0 +1,16 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  background-color: #4D5E85;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  max-height: 100vh;
+  width: 50%;
+  .content {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
